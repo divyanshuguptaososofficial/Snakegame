@@ -1,5 +1,7 @@
 SNAKE GAME IMPLEMENTATION IN MULTIPLE-USER ENVIRONMENT
 
+This game is totally written in C.
+
 The major objectives of this project are: 
 1.	Tocreate a snake game that will have all the functionality of traditional snake games.
 2.	To introduce multilayer functionality in the game that will allow several players to play a game simultaneously. It should be able to       give the experience of a real time multiplayer game to the players.
