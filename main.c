@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <windows.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <time.h>
+#include <windows.h>
 
 #define wall_row 20//width of boundary
 #define  wall_column 40//height  of boundary
@@ -43,6 +43,7 @@ void snake_body()//it will define all the property of snake like movement positi
 
 void print()//it will print boundary ,food and score
 {
+
     for(i=0;i<=wall_column+1;i++)//top vertical line of the box
         {
             if(i==0)
@@ -101,7 +102,7 @@ void Food_creation()//code for food creation
 
         if(Speed>10 && score!=0)//as the snake eats the food the speed of snake increases
             {
-                Speed= Speed - 5;//in this we are decreasing it so that our halt time is less
+                Speed= Speed - 15;//in this we are decreasing it so that our halt time is less
             }
         }
 }
@@ -439,7 +440,7 @@ void snaketail_movement()//start of snaketail_movementfunction
 void GameOver()//some material that should occur when our game gets over
 {
     printf("\a");//it will produce a beep sound indicating that our game is over
-    Sleep(200);
+   Sleep(200);
     system("Cls");
 
     if(score>high_score)//comparing the score from the high score if  score is more than high score than we will update the value in the highscore file
@@ -477,7 +478,7 @@ void GameOver()//some material that should occur when our game gets over
 
 void game_level()//function for selecting game level
 {
-    printf("\nSELECT YOUR LEVEL  \n  1)EASY \n 2)MODERATE \n 3)HARD");
+    printf("\nSELECT YOUR LEVEL  \n 1)EASY \n 2)MODERATE \n 3)HARD\n");
     scanf("%d",&user_input);
 
     switch(user_input)
@@ -535,10 +536,18 @@ void game_level()//function for selecting game level
 }
 void game_details()//function for about the game
 {
-    printf("Welcome to our snake game !!!!!!!!!!!!!!!!!!!   \n  CONTROLS : \n W->UP \n A->LEFT \n S->DOWN \n D->RIGHT  \n THE GAME HAS THREE LEVEL SELCTION \n EASY MODE: IN THIS YOU DONOT DIE BY HITTING ALL THE FOUR WALL AND THE ONLY WAY TO GET KILLED IS BY EATING YOUR OWN TAIL \n MODERATE:IN THIS YOU  DIE BY HITTING THE UPPER ,BOTTOM WALL AND BY EATING YOUR OWN TAIL \nHARD MODE: IN THIS YOU  DIE BY HITTING ALL THE 4 WALL AND  BY EATING YOUR OWN TAIL");
+        printf("Welcome to our snake game !!!!!!!!!!!!!!!!!!!\n");
+        printf("THE GAME HAS THREE LEVEL SELCTION\n");
+        printf("EASY MODE: IN THIS YOU DONOT DIE BY HITTING ALL THE FOUR WALL AND THE ONLY WAY TO GET KILLED IS BY EATING YOUR OWN TAIL");
+        printf("\nMODERATE:IN THIS YOU  DIE BY HITTING THE UPPER ,BOTTOM WALL AND BY EATING YOUR OWN TAIL");
+        printf("\nHARD MODE: IN THIS YOU  DIE BY HITTING ALL THE 4 WALL AND  BY EATING YOUR OWN TAIL");
+
+        printf("\nCONTROLS : \n W->UP \n A->LEFT \n S->DOWN \n D->RIGHT  ");
 }
+
 int main()//main function
 {
+
     game_details();
     game_level();
 
