@@ -4,6 +4,7 @@
 #include <time.h>
 #include <windows.h>
 
+
 #define wall_row 20//width of boundary
 #define  wall_column 40//height  of boundary
     int i,j,Box[wall_row][wall_column],snake_xcoordinate,snake_ycoordinate,snake_head,snake_tail,snake_temp,game_over,food,food_xcoordinate,food_ycoordinate,user_input,direction,score,high_score,Speed;//global variables that are used in function
