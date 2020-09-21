@@ -20,5 +20,19 @@ The major objectives of this project are:
 - Unbounded mode: Here, during the process of travelling, if the snake hits the boundary wall, it does not die, instead it comes out from the opposite wall as though there is a continuation in the movement. 
 - Bounded mode: Here, during the process of travelling, if the snake hits the boundary wall, the snake dies, and this is counted as a loss of life. This is a tougher mode as compared to the unbounded mode
 
+# Game Options:
 
+# Main Menu
+<img src = "/SNAPSHOTS/main_menu.PNG" /> 
+
+# Single player 
+<img src = "/SNAPSHOTS/single player screen.PNG" /> 
+<img src = "/SNAPSHOTS/single player mode.PNG" /> 
+
+# User vs User
+<img src = "/SNAPSHOTS/multiplayer screen.PNG" /> 
+<img src = "/SNAPSHOTS/multiplayer mode.PNG" /> 
+
+# Highscore Table
+<img src = "/Camera Roll/highscore table.PNG" /> 
 
