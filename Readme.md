@@ -34,5 +34,5 @@ The major objectives of this project are:
 <img src = "/SNAPSHOTS/multiplayer mode.PNG" /> 
 
 # Highscore Table
-<img src = "/Camera Roll/highscore table.PNG" /> 
+<img src = "/SNAPSHOTS/highscore table.PNG" /> 
 
