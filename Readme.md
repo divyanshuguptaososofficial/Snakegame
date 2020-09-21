@@ -11,6 +11,9 @@ The major objectives of this project are:
 5. To create Multi-player snake game.
 6. To maintain high score table.
 
+<img src = "/SNAPSHOTS/Video2.gif" /> 
+
+
 # Different modes used in the game 
 - Easy mode: Here the box size in which the snake is allowed to move around freely is larger in size as compared to the other two modes. Hence, the user finds it a lot easier to control the snake. Chances for the snake to die are quite less 
 - Medium mode: Here the box size in which the snake is allowed to move around freely is larger in size as compared to the hard mode and smaller than in easy mode. Chances for the snake to die are moderate 
