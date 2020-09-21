@@ -23,7 +23,7 @@ The major objectives of this project are:
 # Game Options:
 
 # Main Menu
-<img src = "/SNAPSHOTS/main_menu.PNG" /> 
+<img src = "/SNAPSHOTS/main menu.PNG" /> 
 
 # Single player 
 <img src = "/SNAPSHOTS/single player screen.PNG" /> 
