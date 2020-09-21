@@ -39,3 +39,5 @@ The major objectives of this project are:
 # Highscore Table
 <img src = "/SNAPSHOTS/highscore table.PNG" /> 
 
+# Maintainers and Developers
+ - [Divyanshu Gupta](https://github.com/divyanshuguptaososofficial)
